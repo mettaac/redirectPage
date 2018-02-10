@@ -1,17 +1,17 @@
 {
   "manifest_version": 2,
-  "name": "Redirecting Page",
+  "name": "DO NOT OPEN!!",
   "version": "1.0",
 
   "permissions": [
-      "tabs"
+      "activeTab"
     ],
+
   "browser_action": {
-    "default_title": "Redirecting Page"
+    "default_title": "you sure?"
   },
 
   "background": {
-    "browser_style": true,
     "scripts": ["background.js"]
   }
 
